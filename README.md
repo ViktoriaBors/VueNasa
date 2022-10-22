@@ -11,11 +11,9 @@ I found free api on the Nasa site, to search images and other cool things.
 3. Nasa free api
 
 **Aim of the Project**
-It is a practice mini project to get more hands-on experience with Vue. The user can pick a date and select different options to see that day's image and other events.
+It is a practice mini project to get more hands-on experience with Vue. The user can pick a date to see that day's image and other events.
 
 **Challenges within the Project**
-
-COMING SOON 
 
  **Day 1**
  
@@ -24,7 +22,11 @@ COMING SOON
  So first I used new Date(Date.now()) - which gives back a string. This string is not the same format what the date-picker accepts as a max value. I needed to re-computed (re-formatted) to the acceptable string. I found that toISOString() - make the right format but some extras on the end what I cut off with slice. So now the format was the same format what is acceptable.
 
  Next problem was that I messed up how to bind data. I wanted to use the {{}} format for an attribute - which obviously did not work. The I realized that for attribute binding I need to use :attribute="" form. And voila worked.
-## **_What have I learned_**
-Vue and more Vue.
 
-## Deployed: COMING SOON
+ **Day 2**
+
+ So select date max-value actually working :) Jee. I made it pretty simple the whole app. So if here was no submit then I hide the image container where I want the requested data/img to come. After submit the condition changing and the form is hidden. So I used v-if solution for this.
+## **_What have I learned_**
+Vue - data binding (attributum) and v-if
+
+## Deployed: 2022. October

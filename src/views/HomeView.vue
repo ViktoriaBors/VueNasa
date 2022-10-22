@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <div class="p-14">
+  <div class="w-screen h-screen flex justify-center items-center">
       <div>
         <h2 class="font-semibold text-5xl uppercase mb-4">Nasa Images</h2>
         <h4 class="font-semibold text-xl m-11">
@@ -19,7 +18,6 @@
       
         >Start here</router-link>
       </div>
-    </div>
   </div>
 </template>
 
